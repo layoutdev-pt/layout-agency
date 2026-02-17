@@ -8,11 +8,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Layout Agency | Em Construção",
+  title: "Layout Agency",
   description:
     "Layout Agency está a construir algo extraordinário. Junta-te à nossa waitlist para seres o primeiro a saber!",
   authors: [{ name: "Layout Agency" }],
   creator: "Layout Agency",
+  icons: {
+    icon: "/img/layout.svg",
+    shortcut: "/img/layout.svg",
+    apple: "/img/layout.svg",
+  },
 };
 
 export default function RootLayout({
