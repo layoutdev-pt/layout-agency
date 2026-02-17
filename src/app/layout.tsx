@@ -18,6 +18,21 @@ export const metadata: Metadata = {
     shortcut: "/img/layout.svg",
     apple: "/img/layout.svg",
   },
+  openGraph: {
+    title: "Layout Agency",
+    description:
+      "Layout Agency está a construir algo extraordinário. Junta-te à nossa waitlist para seres o primeiro a saber!",
+    siteName: "Layout Agency",
+    locale: "pt_PT",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Layout Agency",
+    description:
+      "Layout Agency está a construir algo extraordinário. Junta-te à nossa waitlist para seres o primeiro a saber!",
+  },
+  metadataBase: new URL("https://layoutagency.pt"),
 };
 
 export default function RootLayout({
